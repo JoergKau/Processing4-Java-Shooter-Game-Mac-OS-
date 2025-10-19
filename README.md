@@ -28,6 +28,9 @@ This repository contains the source code and required libraries to build and run
 1. Ensure you have a Java 17 JDK. The project can use the Processing 4 bundled JDK (recommended for portability).
 2. If you want to use the bundled JDK, copy or link the Processing JDK into the project root as `jdk/` (see `jdk/README.md`).
 3. Make sure the `lib/` directory contains the required JARs. The repository includes macOS native JARs by default.
+4. install Processing 4 from https://processing.org
+5. This project is not using the Processing IDE but VS Code or IntelliJ.
+6. Ensure Processing core library is added to the project (come along with the Processing app)
 
 ## Build (project-local JDK)
 
