@@ -13,7 +13,7 @@ This repository contains the source code and required libraries to build and run
 ## What is included
 
 - `src/` — Java source code (game logic, entities, managers)
-- `lib/` — Third-party JARs required at runtime (Processing/JOGL natives included for macOS)
+- `lib/` — Third-party JARs required at runtime (Processing JOGL and GLUE natives included for macOS)
 - `resources/` — Images, sounds and other assets
 - `jdk/README.md` — Notes about the bundled JDK (keep this file)
 
@@ -56,7 +56,7 @@ On Windows adapt the classpath separator and executable paths.
 
 ## Notes about native libraries
 
-- The `lib/` folder contains platform-specific native JARs for Processing JOGL and GLUGEN. The provided jars are for macOS. If you run on Windows or Linux, replace the macOS native jars with the appropriate platform versions.
+- The `lib/` folder contains platform-specific native JARs for Processing JOGL and GLUE. The provided jars are for macOS. If you run on Windows or Linux, replace the macOS native jars with the appropriate platform versions.
 - For Mac OS this native libs are: "gluegen-rt-2.5.0-natives-macosx-universal.jar" and "jogl-all-2.5.0-natives-macosx-universal.jar". For Windows and Linux those file also come included in the Processing installation. 
 - If you see native library errors at runtime, verify you are using the correct native JARs for your OS and architecture.
 
